@@ -1,0 +1,79 @@
+.container {
+  padding: 100px;
+}
+
+.header {
+  background-image: url(./images/todo-4783676_640.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.header .refresh {
+  text-align: right;
+}
+
+.date {
+  font-size: 30px;
+}
+
+#refresh {
+  cursor: pointer;
+}
+
+#list {
+  margin-top: 100px;
+  list-style: none;
+}
+
+li {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 30px;
+}
+li::before {
+  content: '・';
+}
+
+button {
+margin-left: 40px;
+border: none;
+background-color: grey;
+color: #fff;
+cursor: pointer;
+
+}
+
+.complete {
+  color: red;
+  text-decoration: line-through;
+}
+
+
+.fa-plus {
+  cursor: pointer;
+  
+}
+
+
+.add-item {
+  width: 50%;
+  margin: auto;
+}
+
+#input {
+  width: 90%;
+  margin: auto;
+  padding: 10px;
+}
+
+
+.false {
+  background-color: hotpink;
+}
+
+
+
+
+
+
